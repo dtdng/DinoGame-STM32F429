@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/homescreen_screen/HomeScreenPresenter.hpp:28:13:HomeScreenPresenter::~HomeScreenPresenter()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/homescreen_screen/HomeScreenPresenter.cpp:10:6:virtual void HomeScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/homescreen_screen/HomeScreenPresenter.hpp:28:13:virtual HomeScreenPresenter::~HomeScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/homescreen_screen/HomeScreenPresenter.hpp:28:13:virtual void* HomeScreenPresenter::_ZThn4_N19HomeScreenPresenterD1Ev()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/homescreen_screen/HomeScreenPresenter.cpp:4:1:HomeScreenPresenter::HomeScreenPresenter(HomeScreenView&)	8	static

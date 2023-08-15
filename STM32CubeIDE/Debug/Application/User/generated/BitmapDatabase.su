@@ -1,0 +1,2 @@
+D:/20222/EmbeddedCat/TouchGFX/generated/images/src/BitmapDatabase.cpp:77:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	0	static
+D:/20222/EmbeddedCat/TouchGFX/generated/images/src/BitmapDatabase.cpp:82:10:uint16_t BitmapDatabase::getInstanceSize()	0	static

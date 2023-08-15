@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/PlayScreenViewBase.hpp:27:18:virtual void PlayScreenViewBase::gameOver()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:13:6:virtual void PlayScreenView::tearDownScreen()	0	static
+../../TouchGFX/gui/include/gui/playscreen_screen/PlayScreenView.hpp:11:13:PlayScreenView::~PlayScreenView()	8	static
+../../TouchGFX/gui/include/gui/playscreen_screen/PlayScreenView.hpp:11:13:virtual PlayScreenView::~PlayScreenView()	8	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:3:1:PlayScreenView::PlayScreenView()	8	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/playscreen_screen/PlayScreenView.cpp:8:6:virtual void PlayScreenView::setupScreen()	0	static

@@ -1,0 +1,2 @@
+Model.cpp:4:1:Model::Model()	1
+Model.cpp:9:6:void Model::tick()	1

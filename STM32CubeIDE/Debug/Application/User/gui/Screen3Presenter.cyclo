@@ -1,0 +1,5 @@
+Screen3Presenter.hpp:28:13:Screen3Presenter::~Screen3Presenter()	1
+Screen3Presenter.cpp:10:6:virtual void Screen3Presenter::activate()	1
+Screen3Presenter.hpp:28:13:virtual Screen3Presenter::~Screen3Presenter()	1
+Screen3Presenter.hpp:28:13:virtual void* Screen3Presenter::_ZThn4_N16Screen3PresenterD1Ev()	1
+Screen3Presenter.cpp:4:1:Screen3Presenter::Screen3Presenter(Screen3View&)	1

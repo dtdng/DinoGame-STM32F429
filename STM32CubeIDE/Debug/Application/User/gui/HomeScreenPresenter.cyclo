@@ -1,0 +1,5 @@
+HomeScreenPresenter.hpp:28:13:HomeScreenPresenter::~HomeScreenPresenter()	1
+HomeScreenPresenter.cpp:10:6:virtual void HomeScreenPresenter::activate()	1
+HomeScreenPresenter.hpp:28:13:virtual HomeScreenPresenter::~HomeScreenPresenter()	1
+HomeScreenPresenter.hpp:28:13:virtual void* HomeScreenPresenter::_ZThn4_N19HomeScreenPresenterD1Ev()	1
+HomeScreenPresenter.cpp:4:1:HomeScreenPresenter::HomeScreenPresenter(HomeScreenView&)	1

@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/gameoverscreen_screen/GameoverScreenPresenter.hpp:28:13:GameoverScreenPresenter::~GameoverScreenPresenter()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/gameoverscreen_screen/GameoverScreenPresenter.cpp:10:6:virtual void GameoverScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/gameoverscreen_screen/GameoverScreenPresenter.hpp:28:13:virtual GameoverScreenPresenter::~GameoverScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/gameoverscreen_screen/GameoverScreenPresenter.hpp:28:13:virtual void* GameoverScreenPresenter::_ZThn4_N23GameoverScreenPresenterD1Ev()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/gameoverscreen_screen/GameoverScreenPresenter.cpp:4:1:GameoverScreenPresenter::GameoverScreenPresenter(GameoverScreenView&)	8	static

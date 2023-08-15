@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/playscreen_screen/PlayScreenPresenter.hpp:28:13:PlayScreenPresenter::~PlayScreenPresenter()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/playscreen_screen/PlayScreenPresenter.cpp:10:6:virtual void PlayScreenPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/playscreen_screen/PlayScreenPresenter.hpp:28:13:virtual PlayScreenPresenter::~PlayScreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/playscreen_screen/PlayScreenPresenter.hpp:28:13:virtual void* PlayScreenPresenter::_ZThn4_N19PlayScreenPresenterD1Ev()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/playscreen_screen/PlayScreenPresenter.cpp:4:1:PlayScreenPresenter::PlayScreenPresenter(PlayScreenView&)	8	static

@@ -1,0 +1,412 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "bg",
+            "X": -9,
+            "Y": -4,
+            "Width": 355,
+            "Height": 244,
+            "RelativeFilename": "bg.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "start",
+            "X": 53,
+            "Y": 100,
+            "Width": 214,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_medium_round_inactive.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_medium_round_inactive.png",
+            "TextId": "__SingleUse_MDBA",
+            "ReleasedColor": {
+              "Red": 66,
+              "Green": 66,
+              "Blue": 66
+            },
+            "PressedColor": {
+              "Red": 158,
+              "Green": 158,
+              "Blue": 158
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\medium_round_inactive.json",
+            "Clickable": true
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "ground",
+            "Y": 178,
+            "Width": 320,
+            "Height": 11,
+            "FileNameFirst": "ground0.png",
+            "FileNameLast": "ground2.png",
+            "UpdateTicksInterval": 250,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "dino",
+            "X": 12,
+            "Y": 134,
+            "Width": 44,
+            "Height": 49,
+            "FileNameFirst": "dino1.png",
+            "FileNameLast": "dino3.png",
+            "UpdateTicksInterval": 200,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "START",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "start"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "bg",
+            "X": -7,
+            "Y": -4,
+            "Width": 355,
+            "Height": 244,
+            "RelativeFilename": "bg.png"
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "ground",
+            "Y": 178,
+            "Width": 320,
+            "Height": 11,
+            "FileNameFirst": "ground0.png",
+            "FileNameLast": "ground2.png",
+            "UpdateTicksInterval": 250,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "dinoc",
+            "X": 5,
+            "Y": 153,
+            "Width": 59,
+            "Height": 30,
+            "Visible": false,
+            "FileNameFirst": "dinoc0.png",
+            "FileNameLast": "dinoc1.png",
+            "UpdateTicksInterval": 10,
+            "StartOnLoad": true
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "dino",
+            "X": 12,
+            "Y": 134,
+            "Width": 44,
+            "Height": 49,
+            "FileNameFirst": "dino1.png",
+            "FileNameLast": "dino3.png",
+            "UpdateTicksInterval": 200,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "bird",
+            "X": 241,
+            "Y": 124,
+            "Width": 46,
+            "Height": 34,
+            "FileNameFirst": "bird0.png",
+            "FileNameLast": "bird1.png",
+            "UpdateTicksInterval": 250,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "Image",
+            "Name": "cacti1",
+            "X": 206,
+            "Y": 149,
+            "Width": 17,
+            "Height": 34,
+            "RelativeFilename": "cactus0.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaPoint",
+            "X": 232,
+            "Y": 26,
+            "Width": 55,
+            "Height": 24,
+            "TextId": "__SingleUse_EK8I",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_DTA7",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "highestScoreTextArea",
+            "X": 12,
+            "Y": 26,
+            "Width": 142,
+            "Height": 24,
+            "TextId": "__SingleUse_CZU9",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_9LM2",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Screen3"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "bg",
+            "X": -7,
+            "Y": -4,
+            "Width": 355,
+            "Height": 244,
+            "RelativeFilename": "bg.png"
+          },
+          {
+            "Type": "AnimatedImage",
+            "Name": "ground",
+            "Y": 159,
+            "Width": 320,
+            "Height": 11,
+            "FileNameFirst": "ground0.png",
+            "FileNameLast": "ground2.png",
+            "UpdateTicksInterval": 250,
+            "StartOnLoad": true,
+            "LoopEnabled": true
+          },
+          {
+            "Type": "Container",
+            "Name": "gameover",
+            "X": 60,
+            "Y": 39,
+            "Width": 207,
+            "Height": 41,
+            "Draggable": true,
+            "Components": [
+              {
+                "Type": "Image",
+                "Name": "image1",
+                "X": 16,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "g.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "image2",
+                "X": 36,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "a.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "image3",
+                "X": 55,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "m.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "image4",
+                "X": 74,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "e.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "image5",
+                "X": 121,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "o.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "image6",
+                "X": 139,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "v.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "image7",
+                "X": 158,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "e.png"
+              },
+              {
+                "Type": "Image",
+                "Name": "image8",
+                "X": 176,
+                "Y": 26,
+                "Width": 11,
+                "Height": 11,
+                "RelativeFilename": "r.png"
+              }
+            ]
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 145,
+            "Y": 120,
+            "Width": 36,
+            "Height": 32,
+            "Pressed": "retry.png",
+            "Released": "retry.png",
+            "Clickable": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 133,
+            "Y": 86,
+            "Width": 55,
+            "Height": 23,
+            "TextId": "__SingleUse_WIFF",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_9UHM",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "RETRY",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "EmbeddedCat",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Screen1",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I-DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "Vector"
+    ]
+  },
+  "Version": "4.22.0",
+  "CreatedBy": "4.22.0"
+}

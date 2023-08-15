@@ -1,0 +1,3 @@
+tm_stm32f4_rng.c:21:6:TM_RNG_Init	1
+tm_stm32f4_rng.c:29:6:TM_RNG_DeInit	1
+tm_stm32f4_rng.c:37:10:TM_RNG_Get	2

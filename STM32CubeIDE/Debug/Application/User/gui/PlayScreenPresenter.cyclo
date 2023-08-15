@@ -1,0 +1,5 @@
+PlayScreenPresenter.hpp:28:13:PlayScreenPresenter::~PlayScreenPresenter()	1
+PlayScreenPresenter.cpp:10:6:virtual void PlayScreenPresenter::activate()	1
+PlayScreenPresenter.hpp:28:13:virtual PlayScreenPresenter::~PlayScreenPresenter()	1
+PlayScreenPresenter.hpp:28:13:virtual void* PlayScreenPresenter::_ZThn4_N19PlayScreenPresenterD1Ev()	1
+PlayScreenPresenter.cpp:4:1:PlayScreenPresenter::PlayScreenPresenter(PlayScreenView&)	1

@@ -1,0 +1,8 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	1
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	1
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+GameoverScreenView.cpp:13:6:virtual void GameoverScreenView::tearDownScreen()	1
+GameoverScreenView.hpp:11:13:GameoverScreenView::~GameoverScreenView()	1
+GameoverScreenView.hpp:11:13:virtual GameoverScreenView::~GameoverScreenView()	1
+GameoverScreenView.cpp:3:1:GameoverScreenView::GameoverScreenView()	1
+GameoverScreenView.cpp:8:6:virtual void GameoverScreenView::setupScreen()	1

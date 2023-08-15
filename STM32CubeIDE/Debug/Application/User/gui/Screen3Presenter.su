@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp:28:13:Screen3Presenter::~Screen3Presenter()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/screen3_screen/Screen3Presenter.cpp:10:6:virtual void Screen3Presenter::activate()	0	static
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp:28:13:virtual Screen3Presenter::~Screen3Presenter()	8	static
+../../TouchGFX/gui/include/gui/screen3_screen/Screen3Presenter.hpp:28:13:virtual void* Screen3Presenter::_ZThn4_N16Screen3PresenterD1Ev()	0	static
+D:/20222/EmbeddedCat/TouchGFX/gui/src/screen3_screen/Screen3Presenter.cpp:4:1:Screen3Presenter::Screen3Presenter(Screen3View&)	8	static

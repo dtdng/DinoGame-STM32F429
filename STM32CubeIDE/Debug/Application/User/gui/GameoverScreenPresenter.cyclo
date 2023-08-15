@@ -1,0 +1,5 @@
+GameoverScreenPresenter.hpp:28:13:GameoverScreenPresenter::~GameoverScreenPresenter()	1
+GameoverScreenPresenter.cpp:10:6:virtual void GameoverScreenPresenter::activate()	1
+GameoverScreenPresenter.hpp:28:13:virtual GameoverScreenPresenter::~GameoverScreenPresenter()	1
+GameoverScreenPresenter.hpp:28:13:virtual void* GameoverScreenPresenter::_ZThn4_N23GameoverScreenPresenterD1Ev()	1
+GameoverScreenPresenter.cpp:4:1:GameoverScreenPresenter::GameoverScreenPresenter(GameoverScreenView&)	1
