@@ -164,11 +164,11 @@ bool Screen2View::checkCollision(){
 	if (dino.isVisible()){
 		int deviation = BASE_HEIGHT - dino.getY(); // amount of deviation of the dino from the ground
 		if (deviation > 8) deviation = 8; // max deviation is 8, which reaches dino's legs
-		dinoL = dino.getX();
+		dinoL = dino.getX() + 10;
 		dinoT = dino.getY() + 10;
 		// simulate the skew of the dino's lower body using the deviation value
 		dinoR = dino.getX() + dino.getWidth() - 10 - deviation;
-		dinoB = dino.getY() + dino.getHeight() - 5;
+		dinoB = dino.getY() + dino.getHeight() - 10;
 	} else {
 		dinoL = dinoc.getX();
 		dinoT = dinoc.getY() + 10;
